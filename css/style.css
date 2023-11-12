@@ -1,0 +1,150 @@
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+body {
+  min-width: 1110px;
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #000000;
+}
+
+.page-header {
+  border-bottom: 1px solid #f5d581;
+}
+
+.main-nav {
+  padding: 0 165px 18px 165px;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  width: 262px;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  margin: 0;
+  color: #9f7303;
+  letter-spacing: 1.8px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.logo-text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 9px;
+}
+
+.logo-img {
+  margin-right: 18px;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-item {
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.page-main {
+  background-color: #fffdf8;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.wysiwyg-wrapper h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.wysiwyg-wrapper h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 34px;
+  color: #9f7303;
+}
+
+.wysiwyg-wrapper h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 34px;
+  color: #9f7303;
+}
+
+.wysiwyg-wrapper p {
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+.wysiwyg-wrapper ul,
+.wysiwyg-wrapper ol {
+  margin: 0;
+  margin-bottom: 34px;
+  padding-left: 22px;
+}
+
+.wysiwyg-wrapper ul li,
+.wysiwyg-wrapper ol li {
+  margin-bottom: 16px;
+  position: relative;
+  list-style: none;
+}
+
+.wysiwyg-wrapper ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #f5d581;
+  transform: rotate(45deg);
+  top: 10px;
+  left: -20px;
+}
+
+.wysiwyg-wrapper blockquote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #9f7303;
+  padding: 40px 100px;
+  border-top: 1px solid #f5d581;
+  border-bottom: 1px solid #f5d581;
+  text-align: center;
+  width: 70%;
+  margin: 60px auto 60px auto;
+}
